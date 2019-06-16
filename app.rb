@@ -44,8 +44,7 @@ get '/:operation/:number1/:number2' do
    elsif @operation == "multiply"
    "#{@number1 * @number2}"
    elsif @operation == "divide"
-   "#{@number1 % @number2}"
-   binding.pry
+   "#{@number1 / @number2}"
   end
 end
 end
